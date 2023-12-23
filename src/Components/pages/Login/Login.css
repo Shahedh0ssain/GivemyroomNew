@@ -1,0 +1,196 @@
+body {
+
+    background-image: url("../../../01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h1,
+p {
+    text-align: center;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+}
+
+.roww {
+    flex-direction: column;
+}
+
+.pinned-map {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* form {
+    margin-left: 0px;
+  } */
+
+.full-form {
+    width: 40%;
+    background-color: #ececec;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    /* background-color: #ececec; */
+    /* opacity: 0.6; */
+    color: black;
+    width: 100%;
+    /* margin-left: 31%; */
+}
+
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+form h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+
+form input {
+    width: 79%;
+    height: 55px;
+    text-align: center;
+    border-radius: 9px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+form .dotted {
+    border: 3px dotted black;
+    color: black;
+    font-size: 26px;
+    padding: 9px;
+}
+
+.login {
+    background-color: black;
+    color: white;
+    height: 55px !important;
+    width: 90% !important;
+    margin-left: 28px;
+    border: 0;
+}
+
+form a {
+    width: 90%;
+    height: 55px;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-radius: 9px;
+    line-height: 55px;
+    text-decoration: none;
+    margin: auto;
+    margin-left: 29px;
+    margin-bottom: 11px;
+}
+
+.googlebtn {
+    width: 90%;
+    height: 55px;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    border-radius: 9px;
+    line-height: 55px;
+    text-decoration: none;
+    margin: auto;
+    margin-left: 29px;
+    margin-bottom: 11px;
+}
+
+form img {
+    width: 30px;
+    height: 30px;
+}
+
+.login-options {
+    width: 39%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    /* margin-bottom: -20px; */
+    /* margin-top: -19px; */
+    margin-top: 3px;
+}
+
+.login-options a {
+    background-color: transparent;
+}
+
+.radio {
+    display: inline-flex;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background: gray;
+    width: 35%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    left: -3%;
+    position: relative;
+}
+
+.radio_reg {
+    display: inline-flex;
+    overflow: hidden;
+    width: 35%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    left: -3%;
+    position: relative;
+}
+
+.radio-login {
+    display: inline-flex;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background: gray;
+    width: 54%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    left: 24%;
+    top: -12px;
+    position: relative;
+    height: 53px;
+}
+
+.radio__label {
+    width: 50%;
+    font-size: 1.5rem !important;
+    padding: 4px 14px !important;
+}
+
+/* map css extra */
+
